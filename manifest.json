@@ -1,7 +1,7 @@
 {
-  "name": "SuperApp | Hackathon CCR",
-  "short_name": "SuperApp",
-  "description": "Projeto desenvolvido para o Hackathon da CCR, o app disponibiliza vários serviços uteis para os caminhoneiros.",
+  "name": "Ponto Certo | Hackathon CCR",
+  "short_name": "Ponto Certo",
+  "description": "SuperApp com Interface PWA, um sistema que integra as principais facilidades para caminhoneiros a fim de facilitar o seu uso no dia-a-dia sem muita complexidade e com a funcionalidade de comando por voz para que o caminhoneiro não perca sua atenção ao volante caso precise encontrar um local rápido, com opção de criação de widget para atalho na área de trabalho para esta mesma função. E com acessibilidade onde toda tela pode ser ouvida.",
   "icons": [
     {
       "src": "/images/icons-192.png",
@@ -15,11 +15,11 @@
     }
   ],
   "start_url": "index.html",
-  "background_color": "#b30000",
+  "background_color": "#545454",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
-  "theme_color": "#b30000",
+  "theme_color": "#545454",
   "lang" : "Portuguese",
   "shortcuts": [
     {
