@@ -4,11 +4,11 @@ let nextAncora = document.querySelector('.next');
 
 function verify() {
     if(input.value.trim() == ""){
-        nextImagem.src = "../img/proximo-inativo.svg";
+        nextImagem.src = "img/proximo-inativo.svg";
         nextAncora.style.pointerEvents = 'none';
     }
     else{
-        nextImagem.src = "../img/proximo.svg";
+        nextImagem.src = "img/proximo.svg";
         nextAncora.style.pointerEvents = 'auto';
     }
 }
@@ -22,11 +22,11 @@ let microAnimation = document.querySelector('.micro svg');
 microAncora.addEventListener('click', function(event){
     event.preventDefault();
     if(microImagem.src.indexOf("microfone.svg") >= 0){
-        microImagem.src = "../img/microfone-ativo.svg";
+        microImagem.src = "img/microfone-ativo.svg";
         microAnimation.style.display = "inline";
     }
     else{
-        microImagem.src = "../img/microfone.svg";
+        microImagem.src = "img/microfone.svg";
         microAnimation.style.display = "none";
     }
 });
@@ -38,11 +38,11 @@ let modalAtalho = document.querySelector('.opacity');
 atalhoAncora.addEventListener('click', function(event){
     event.preventDefault();
     if(atalhoImagem.src.indexOf("atalho.svg") >= 0){
-        atalhoImagem.src = "../img/atalho-ativo.svg";
+        atalhoImagem.src = "img/atalho-ativo.svg";
         modalAtalho.style.display = 'flex';
     }
     else{
-        atalhoImagem.src = "../img/atalho.svg";
+        atalhoImagem.src = "img/atalho.svg";
     }
 });
 let modal = document.querySelector('.modal-atalho');
@@ -55,7 +55,7 @@ let yesConfirm = document.querySelector('.confirm');
 buttonNot.addEventListener('click', function(event) {
     event.preventDefault();
     modalAtalho.style.display = 'none';
-    atalhoImagem.src = '../img/atalho.svg';
+    atalhoImagem.src = 'img/atalho.svg';
 });
 
 buttonYes.addEventListener('click', function(event) {
