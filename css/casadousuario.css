@@ -16,7 +16,6 @@ body .horizontal-contain div {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0;
   width: 100%;
 }
 body .horizontal-contain div img {
@@ -30,7 +29,7 @@ body .horizontal-contain div h1 {
   margin: 0;
 }
 body h2 {
-  color: #222222;
+  color: #545454;
   width: 100%;
   font-size: 1.6rem;
   text-align: center;
@@ -54,25 +53,26 @@ body .input-contain {
 body .input-contain input {
   height: 50px;
   width: 100%;
-  border: 1px solid #222222;
+  border: 1px solid #545454;
   border-radius: 35px;
   font-size: 18px;
   font-family: "Open Sans";
   font-weight: bold;
   padding-left: 20px;
   outline: none;
-  color: #222222;
+  color: #545454;
 }
 body .next-contain {
-  height: 100px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  height: 86px;
+  width: 100%;
 }
-body .next-contain .next {
+body .next-contain a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
   height: 50px;
 }
-body .next-contain .next img {
+body .next-contain a img {
   height: 50px;
 }
 
