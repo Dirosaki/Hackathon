@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="A sample weather app">
@@ -7,36 +8,38 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Weather PWA">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="theme-color" content="#FFFFFF"/>
-    <title>Document</title>
-    <!-- <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png"> -->
+    <meta name="theme-color" content="#FFFFFF" />
+    <title>Ponto Certo | Casa do Usuário</title>
+    <link rel="apple-touch-icon" href="/img/icon-152.png">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="css/casadousuario.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-   <script defer src="main.js"></script>
+    <script defer src="main.js"></script>
+    <script type="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+    const el = document.createElement('pwa-update');
+                document.body.appendChild(el);
+    </script>
 </head>
 
 <body>
     <div class="horizontal-contain">
         <div>
-            <img src="img/casaDoUsuario.svg" alt="">
+            <img src="img/casaDoUsuario.svg" alt="Casa do usuário">
             <h1>casa do <br> usuário</h1>
-            <a href="#"><img src="img/speaker.svg" alt=""></a>
-        </div>    
+            <a href="#"><img src="img/speaker.svg" alt="Auto Falante"></a>
+        </div>
     </div>
     <h2>digite o endereço, <br> ou ative a sua <br> localização no botão <br> abaixo:</h2>
     <a href="" class="gps">
-        <img src="img/gps.svg" alt="">
+        <img src="img/gps.svg" alt="gps">
     </a>
     <div class="input-contain">
         <input type="text" placeholder="Endereço">
-        <div class="lista">
-            <img src="" alt="">
-        </div>
     </div>
     <div class="next-contain">
         <a href="">
-            <img src="img/proximo.svg" alt="">
+            <img src="img/proximo.svg" alt="Próximo">
         </a>
     </div>
 </body>

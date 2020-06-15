@@ -8,32 +8,34 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Weather PWA">
     <meta name="theme-color" content="#FFFFFF"/>
-    <title>Document</title>
-    <!-- <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png"> -->
+    <title>Ponto Certo | Postos</title>
+    <link rel="apple-touch-icon" href="/img/icon-152.png">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="css/postos.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <script defer src="js/postos.js"></script>
     <script defer src="main.js"></script>
+    <script type="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+    const el = document.createElement('pwa-update');
+                document.body.appendChild(el);
+    </script>
     
 </head>
 <body>
     <div class="horizontal-contain">
         <div>
-            <img src="img/postos.svg" alt="">
+            <img src="img/postos.svg" alt="Postos">
             <h1>postos</h1>
-            <a href="#"><img src="img/speaker.svg" alt=""></a>
+            <a href="#"><img src="img/speaker.svg" alt="Auto Falante"></a>
         </div>    
     </div>
     <h2>digite o endereço, <br> ou ative a sua <br> localização no <br>botão abaixo:</h2>
     <a href="" class="gps">
-        <img src="img/gps.svg" alt="">
+        <img src="img/gps.svg" alt="GPS">
     </a>
     <div class="input-contain">
         <input type="text" placeholder="Endereço">
-        <div class="lista">
-            <img src="" alt="">
-        </div>
     </div>
     <div class="next-contain">
         <a href="" class="micro">
@@ -71,32 +73,32 @@
 	<circle class="st2" cx="428.7" cy="256" r="60.3"/>
 </g>
 </svg>
-            <img src="img/microfone.svg" alt="">
+            <img src="img/microfone.svg" alt="Microfone">
         </a>
         <a href="" class="atalho">
-            <img src="img/atalho.svg" alt="">
+            <img src="img/atalho.svg" alt="Atalho">
         </a>
         <a href="index.html" class="home">
-            <img src="img/home.svg" alt="">
+            <img src="img/home.svg" alt="Página Inicial">
         </a>
-        <a href="" class="next" >
-            <img src="img/proximo-inativo.svg" alt="">
+        <a href="listagem.html" class="next" >
+            <img src="img/proximo-inativo.svg" alt="Próximo">
         </a>
     </div>
     <div class="opacity">
         <div class="modal-atalho">
-            <img src="img/speaker.svg" alt="">
+            <img src="img/speaker.svg" alt="Auto Falante">
             <h2 class="not-confirm">Gostaria de <br> adicionar um <br> atalho de <br> comando de voz <br> no seu celular?</h2>
             <h2 class="confirm">Adicionado com <br> sucesso!</h2>
             <div class="confirmations">
                 <a href="" class="button-not">
-                    <img src="img/nao.svg" alt="">
+                    <img src="img/nao.svg" alt="Não Confirmar">
                 </a>
                 <a href="" class="button-yes">
-                    <img src="img/sim.svg" alt="">
+                    <img src="img/sim.svg" alt="Confirmar">
                 </a>
                 <a href="" class="button-yes2">
-                    <img src="img/sim.svg" alt="">
+                    <img src="img/sim.svg" alt="Confirmar">
                 </a>
             </div>
         </div>

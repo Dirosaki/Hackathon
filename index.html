@@ -8,42 +8,46 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Weather PWA">
     <meta name="theme-color" content="#545454"/>
-    <title>Document</title>
-    <!-- <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png"> -->
+    <title>Ponto Certo | Home</title>
+    <link rel="apple-touch-icon" href="/img/icon-152.png">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <script defer src="main.js"></script>
+    <script type="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+    const el = document.createElement('pwa-update');
+                document.body.appendChild(el);
+    </script>
 </head>
-
 <body>
     <div class="horizontal-contain">
         <div>
-            <img src="img/logotipo.png" alt="">
+            <img src="img/logotipo.png" alt="Logotipo CCR">
         </div>
         <a href="#">
-            <img src="img/speaker.svg" alt="">
+            <img src="img/speaker.svg" alt="Auto Falante">
         </a>
     </div>
     <h2>Em o que <br>podemos ajudar?</h2>
     <a class="options" href="postos.html">
-        <img src="img/postos.svg" alt="">
+        <img src="img/postos.svg" alt="Postos">
         <p>Postos</p>
     </a>
-    <a class="options" href="#">
-        <img src="img/telemedicine.svg" alt="">
+    <a class="options" href="tel:08004441001">
+        <img src="img/telemedicine.svg" alt="Telemedicina">
         <p>Telemedicina</p>
     </a>
-    <a class="options" href="#">
-        <img src="img/Cia-Consulta_logo-baixa.png" alt="">
+    <a class="options" target="_blank" rel="nofollow" href="https://ciadaconsulta.com.br/ccr">
+        <img src="img/Cia-Consulta_logo-baixa.png" alt="Consulta Online">
         <p>Consulta Online</p>
     </a>
     <a class="options" href="casadousuario.html">
-        <img src="img/casaDoUsuario.svg" alt="">
+        <img src="img/casaDoUsuario.svg" alt="Casa do Usuário">
         <p>Casa do Usuário</p>
     </a>
-    <a class="options" href="#">
-        <img src="img/podcast.svg" alt="">
+    <a class="options" target="_blank" rel="nofollow" href="https://trucao.com.br/podcast/">
+        <img src="img/podcast.svg" alt="Podcast">
         <p>Podcast Trucão</p>
     </a>
 </body>

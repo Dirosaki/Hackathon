@@ -2,39 +2,29 @@
   "name": "Ponto Certo | Hackathon CCR",
   "short_name": "Ponto Certo",
   "description": "SuperApp com Interface PWA, um sistema que integra as principais facilidades para caminhoneiros a fim de facilitar o seu uso no dia-a-dia sem muita complexidade e com a funcionalidade de comando por voz para que o caminhoneiro não perca sua atenção ao volante caso precise encontrar um local rápido, com opção de criação de widget para atalho na área de trabalho para esta mesma função. E com acessibilidade onde toda tela pode ser ouvida.",
+  "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/images/icons-192.png",
+      "src": "/img/icon-152.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "152x152"
     },
     {
-      "src": "/images/icons-512.png",
+      "src": "/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "index.html",
+  "start_url": "/",
   "background_color": "#545454",
-  "display": "standalone",
+  "display": "fullscreen",
   "orientation": "portrait",
-  "scope": "/",
   "theme_color": "#545454",
-  "lang" : "Portuguese",
-  "shortcuts": [
-    {
-      "name": "How's weather today?",
-      "short_name": "Today",
-      "description": "View weather information for today",
-      "url": "/today?source=pwa",
-      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "How's weather tomorrow?",
-      "short_name": "Tomorrow",
-      "description": "View weather information for tomorrow",
-      "url": "/tomorrow?source=pwa",
-      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
-    }
-  ]
+  "lang" : "Portuguese"
 }
